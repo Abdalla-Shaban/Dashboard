@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Files</title>
+    <!-- Framework File -->
+    <link rel="stylesheet" href="css/framework.css" />
+    <!-- .Main File  -->
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- Normalize File -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 relative">
+            <h3 class="mt-0 txt-c relative">Abdalla</h3>
+            <ul>
+                <li>
+                    <a class="d-flex align-center p-10 c-black fs-14 rad-6" href="index.html">
+                        <i class="fa-solid fa-chart-column fa-fw"></i>
+                        <span class="fs-14 mobile-hidden">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center p-10 c-black fs-14 rad-6" href="settings.html">
+                        <i class="fa-solid fa-gears fa-fw"></i>
+                        <span class="fs-14 mobile-hidden">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center p-10 c-black fs-14 rad-6" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span class="fs-14 mobile-hidden">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center p-10 c-black fs-14 rad-6" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="fs-14 mobile-hidden">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center p-10 c-black fs-14 rad-6" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span class="fs-14 mobile-hidden">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center p-10 c-black fs-14 rad-6" href="friends.html">
+                        <i class="fa-solid fa-user-group fa-fw"></i>
+                        <span class="fs-14 mobile-hidden">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center p-10 c-black fs-14 rad-6" href="files.html">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span class="fs-14 mobile-hidden">Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center p-10 c-black fs-14 rad-6" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="fs-14 mobile-hidden">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="header d-flex align-center p-10 bg-white">
+                <div class="search relative">
+                    <input class="rad-6 relative" type="search" placeholder="Type A Keyword" />
+                </div>
+                <div class="profile-info d-flex align-center relative">
+                    <i class="fa-regular fa-bell fa-fw relative"></i>
+                    <img src="imgs/profile.png" alt="" />
+                </div>
+            </div>
+            <div class="content-info">
+                <h1 class="relative">Files</h1>
+                <div class="files-page">
+                    <div class="files-stats">
+                        <h2>Files Statistics</h2>
+                        <div class="files-info">
+                            <i class="fa-regular fa-file-pdf fa-lg blue"></i>
+                            <div class="files-text">
+                                <span>PDF Files</span>
+                                <span>130</span>
+                            </div>
+                            <div class="files-size">
+                                <span>6.5GB</span>
+                            </div>
+                        </div>
+                        <div class="files-info">
+                            <i class="fa-regular fa-images fa-lg green"></i>
+                            <div class="files-text">
+                                <span>Images</span>
+                                <span>115 Files</span>
+                            </div>
+                            <div class="files-size">
+                                <span>3.5GB</span>
+                            </div>
+                        </div>
+                        <div class="files-info">
+                            <i class="fa-regular fa-file-word fa-lg red"></i>
+                            <div class="files-text">
+                                <span>Word Files</span>
+                                <span>110</span>
+                            </div>
+                            <div class="files-size">
+                                <span>3.2GB</span>
+                            </div>
+                        </div>
+                        <div class="files-info">
+                            <i class="fa-solid fa-file-csv fa-lg orange"></i>
+                            <div class="files-text">
+                                <span>CSV Files</span>
+                                <span>98 Files</span>
+                            </div>
+                            <div class="files-size">
+                                <span>2.9GB</span>
+                            </div>
+                        </div>
+                        <a class="files-upload" href="#">
+                            <i class="fas fa-angles-up fa-fw"></i>
+                            Upload
+                        </a>
+                    </div>
+                    <div class="files-content">
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/pdf.svg" alt="">
+                                <p>my-file.pdf</p>
+                                <span class="user">Abdalla</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/eps.svg" alt="">
+                                <p>my-file.eps</p>
+                                <span class="user">Uploader</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/psd.svg" alt="">
+                                <p>my-file.psd</p>
+                                <span class="user">Bouda</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/png.svg" alt="">
+                                <p>my-file.png</p>
+                                <span class="user">Designer</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/dll.svg" alt="">
+                                <p>my-file.dll</p>
+                                <span class="user">Coder</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/avi.svg" alt="">
+                                <p>my-file.avi</p>
+                                <span class="user">Admin</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/pdf.svg" alt="">
+                                <p>my-file.pdf</p>
+                                <span class="user">Abdalla</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/eps.svg" alt="">
+                                <p>my-file.eps</p>
+                                <span class="user">Uploader</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/psd.svg" alt="">
+                                <p>my-file.psd</p>
+                                <span class="user">Bouda</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/png.svg" alt="">
+                                <p>my-file.png</p>
+                                <span class="user">Designer</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/dll.svg" alt="">
+                                <p>my-file.dll</p>
+                                <span class="user">Coder</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/avi.svg" alt="">
+                                <p>my-file.avi</p>
+                                <span class="user">Admin</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/png.svg" alt="">
+                                <p>my-file.png</p>
+                                <span class="user">Designer</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/pdf.svg" alt="">
+                                <p>my-file.pdf</p>
+                                <span class="user">Abdalla</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/eps.svg" alt="">
+                                <p>my-file.eps</p>
+                                <span class="user">Uploader</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/psd.svg" alt="">
+                                <p>my-file.psd</p>
+                                <span class="user">Bouda</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/pdf.svg" alt="">
+                                <p>my-file.pdf</p>
+                                <span class="user">Abdalla</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/eps.svg" alt="">
+                                <p>my-file.eps</p>
+                                <span class="user">Uploader</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/psd.svg" alt="">
+                                <p>my-file.psd</p>
+                                <span class="user">Bouda</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/png.svg" alt="">
+                                <p>my-file.png</p>
+                                <span class="user">Designer</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/dll.svg" alt="">
+                                <p>my-file.dll</p>
+                                <span class="user">Coder</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/avi.svg" alt="">
+                                <p>my-file.avi</p>
+                                <span class="user">Admin</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/png.svg" alt="">
+                                <p>my-file.png</p>
+                                <span class="user">Designer</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <i class="fa-solid fa-download"></i>
+                            <div class="file-text">
+                                <img src="imgs/pdf.svg" alt="">
+                                <p>my-file.pdf</p>
+                                <span class="user">Abdalla</span>
+                            </div>
+                            <div class="file-other-data">
+                                <span>20/6/2020</span>
+                                <span>5.5MB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
